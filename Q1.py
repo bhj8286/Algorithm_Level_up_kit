@@ -28,8 +28,6 @@ def getMaxSum(numData): # 요구 사항에 맞춰 처리된 2차원 정수 배�
         for j in range(4):
                 if numData[s][j]+numData[s][j+1]+numData[s+1][j]+numData[s+1][j+1] > maxSum:
                       maxSum = numData[s][j]+numData[s][j+1]+numData[s+1][j]+numData[s+1][j+1]
-
-
     ###########   <-------------- 여기까지 코딩 (2)
 
     return maxSum
